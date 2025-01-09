@@ -20,17 +20,76 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: var(--main-font);
+    font-size: var(--font-size);
+    font-weight: var(--Weight-regular);
+}
+
+body, .SocialLinksProfile, .profile, .social-networks{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 body{
     background-color: var(--Color-Grey-900);
     color: var(--Color-White);
+    height: 100vh;
+    justify-content: center;
 }
 
-main{
+.SocialLinksProfile{
     background-color: var(--Color-Grey-800);
+    border-radius: 10px;
     padding: 1rem;
-    margin: 0 auto;
+    max-width: 300px;
+    justify-content: center;
+}
+
+.profile-img{
+    width: 100px;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.profile-name{
+    font-size: 1.6rem;
+    font-weight: var(--Weight-semibold);
+    letter-spacing: 0.05rem;
+    margin-top: 15px;
+    margin-bottom: 8px;
+}
+
+.profile-location{
+    color: var(--Color-Green);
+    font-weight: var(--Weight-semibold);
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.profesion{
+    margin: 15px 0px;
+
+    & .profesion-description{
+        font-weight: 300;
+    }
+}
+
+.social-networks-links{
+    text-decoration: none;
+    color: var(--Color-White);
+    font-weight: var(--Weight-bold);
+    background-color: var(--Color-Grey-700);
+    width: 250px;
+    padding: 0.8rem;
+    border-radius: 5px;
+    text-align: center;
+    margin: 0.45rem 0;
+}
+
+.social-networks-links:hover{
+    background-color: var(--Color-Green);
+    color: black;
 }
 
 
@@ -39,16 +98,13 @@ main{
 
 
 
-
-
-
-
-.attribution 
-{ 
-    font-size: 11px; text-align: center; 
+.attribution { 
+    font-size: 5px;
+    text-align: center; 
 }
 
-.attribution a 
-{ 
+.attribution a { 
+    font-size: 5px;
     color: hsl(228, 45%, 44%); 
+    text-decoration: none;
 }
