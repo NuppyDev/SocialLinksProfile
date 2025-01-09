@@ -31,7 +31,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [My repositery](https://github.com/NuppyDev/SocialLinkProfile.git)
-- Live Site URL: [Netlify](https://your-live-site-url.com)
+- Live Site URL: [Netlify](https://social-links-profile-nuppydev.netlify.app)
 
 ## My process
 
