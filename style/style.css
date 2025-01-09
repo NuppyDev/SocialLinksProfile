@@ -41,8 +41,7 @@ body{
 .SocialLinksProfile{
     background-color: var(--Color-Grey-800);
     border-radius: 10px;
-    padding: 1rem;
-    max-width: 300px;
+    padding: 2rem;
     justify-content: center;
 }
 
