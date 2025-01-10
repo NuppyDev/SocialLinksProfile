@@ -80,8 +80,8 @@ body{
     color: var(--Color-White);
     font-weight: var(--Weight-bold);
     background-color: var(--Color-Grey-700);
-    width: 250px;
-    padding: 0.8rem;
+    width: 300px;
+    padding: 1rem;
     border-radius: 5px;
     text-align: center;
     margin: 0.45rem 0;
@@ -92,19 +92,19 @@ body{
     color: black;
 }
 
-
-
-
-
-
-
 .attribution { 
-    font-size: 5px;
+    font-size: 10px;
     text-align: center; 
 }
 
 .attribution a { 
-    font-size: 5px;
+    font-size: 10px;
     color: hsl(228, 45%, 44%); 
     text-decoration: none;
+}
+
+@media screen and (min-width: 600px){
+    .SocialLinksProfile{
+        width: 350px;
+    }
 }
